@@ -16,6 +16,7 @@ namespace WebApi練習
         {
             // 應用程式啟動時執行的程式碼
             AreaRegistration.RegisterAllAreas();
+            //註冊webapi的route
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);            
         }
